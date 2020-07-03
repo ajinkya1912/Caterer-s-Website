@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Adi-Ajinkya Catereres</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style type="text/css">
+    .Navbar{
+      background-color: black;
+      font-size: 20px;
+    }
+    .jumbo{
+      padding-left: 100px;
+      padding-right: 100px;
+      font-size: 20px;
+    }
+    .area{
+      size: 500px;
+  
+    }
+    .button{
+      background-color: blue;
+      color: white;
+    }
+    .adi{
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header style="background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(img/samosa.jpg);">
+<!--Start Navbar-->
+
+  <nav class="navbar navbar-inverse Navbar">
+    <div class="logo">
+          <img src="img/logo1.png"> 
+    </div>
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand adi" href="index.html">Adi-Ajinkya Catreres</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown active"><a class="dropdown-toggle" data-toggle="dropdown" href="our.html">Dishes<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="our.html">Our Dishes</a></li>
+            <li class="active"><a href="creat.html">Create Your Order</a></li>
+          </ul>
+        </li>
+        <li><a href="service.html">Services</a></li>
+        <li><a href="gall.php">Gallery</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="admin.php"><span class="glyphicon glyphicon-user"></span>Login</a></li>
+      </ul>
+    </div>
+  </nav>
+<!--End Navbar-->
+<!--Start Jumbotron-->
+<div class="jumbotron jumbo">
+  <h2><b>Create Your Own:</b></h2>
+  <!--Start Custom Form-->
+  <form action="create.php" method="POST">
+    <h3><b>Custom Form</b></h3>
+      <b>Drinks:</b><br>
+      <input type="text" name="drink" class="form-control">
+      <br>
+      <br>
+      <b>Vegetable:</b><br>
+      <input type="text" name="vege" class="form-control">
+      <br>
+      <br>
+      <b>Salad:</b><br>
+      <input type="text" name="salad" class="form-control">
+      <br>
+      <br>
+      <b>Sweet:</b><br>
+      <input type="text" name="sweet" class="form-control">
+      <br>
+      <br>
+      <b>Roti:</b><br>
+      <input type="text" name="roti" class="form-control">
+      <br>
+      <br>
+      <b>Snacks:</b><br>
+      <input type="text" name="snacks" class="form-control">
+      <br>
+      <br>
+      <b>Rice:</b><br>
+      <input type="text" name="rice" class="form-control">
+      <br>
+      <br>
+      <b>First Name:</b><br>
+      <input type="text" name="fname" class="form-control">
+      <br>
+      <br>
+      <b>Middle Name:</b><br>
+      <input type="text" name="mname" class="form-control">
+      <br>
+      <br>
+      <b>Last Name:</b><br>
+      <input type="text" name="lname" class="form-control">
+      <br>
+      <br>
+      <b>Date:</b><br>
+      <input type="date" name="date" class="form-control">
+      <br>
+      <br>
+      <b>Mobile No.:</b><br>
+      <input type="text" name="mob" class="form-control">
+      <br>
+      <br>
+      <b>Email Id:</b><br>
+      <input type="email" name="email" class="form-control">
+      <br>
+      <br>
+      <b>Venue:</b><br>
+      <input type="text" name="venue" class="form-control">
+      <br>
+      <br>
+      <center><b><input type="submit" name="submit" value="Submit" class="btn btn-default button" ></b></center>
+  </form>  
+  <!--End Custom Form-->
+</div>
+<!--End Jumbotron-->
+
+
+</body>
+</html>
